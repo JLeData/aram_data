@@ -1,6 +1,8 @@
+# python code to extra information via api from riot on my 100 aram games
 # install request using
 # pip install requests
 import requests
+# api key in another .py folder called creds.py
 import creds
 
 # api key and summonder name
