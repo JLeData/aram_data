@@ -1,4 +1,4 @@
-# python code to extra information via api from riot on my 100 aram games
+# python code to extract information via api from riot on my 100 aram games
 # install request using
 # pip install requests
 import requests
@@ -116,7 +116,7 @@ for match_id in matches:
         df.to_excel('player_data.xlsx', index=False)
         print(f"Player data successfully updated with match ID {match_id}.")
 
-    # Introduce a delay of 2 seconds between requests to avoid rate limiting
+    # Introduce a delay of 2 seconds between requests to bypass rate limit
     time.sleep(2)
 
 # Check if any match data was retrieved
