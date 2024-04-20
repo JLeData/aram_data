@@ -37,7 +37,7 @@ With the assistance of [Chat Gpt](https://chat.openai.com/), python was used to 
        
 - SQL: Data cleaning
      - SQL Server Management Studio 19
-     - [Queries here]
+     - [Queries here](https://github.com/JLeData/aram_data/blob/main/queries/qrownin_data.md)
        
 - Tableau: Create dashboards and visuals
      - Tableau Public Desktop Version
